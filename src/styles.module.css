@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right, rgba(232, 66, 15, 0.825), rgba(8, 59, 214, 0.734));
+}
+.gridcontainer{
+    position: absolute;
+    top:150px;
+    left: 30%;
+    right: 15%;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    max-width: 500px;
+    min-width: 25%;
+    grid-template-rows: repeat(7,60px);
+    border: solid rgba(245, 245, 245, 0.407) 2px;
+    border-radius: 20px;
+    background-color: rgb(98, 67, 164);
+    row-gap: 4px;
+    column-gap: 2px;
+}
+.screenContainer{
+    grid-column: span 4;
+    grid-row: span 2;
+    background-color: rgba(15, 15, 15, 0.74);
+    border-radius: 20px 20px 0px 0px;
+}
+.topscreen{
+    
+    padding-right: 20px;
+    margin-top: 20px;
+    text-align: end;
+    font-size: 1.5rem;
+    color: rgba(250, 235, 215, 0.766);
+}
+.bottomscreen{
+
+margin: 0px;
+
+}
+.numberscreen{
+    text-align: end;
+    padding-right:10px ;
+    margin: 0;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+button{
+    font-size: 1.5rem;
+    background-color: rgba(114, 73, 158, 0.931);
+    color:rgb(233, 227, 219);
+    border-radius: 15px ;
+    border-color: rgba(255, 255, 255, 0.446);
+    margin: 0px 5px 5px 5px;
+
+}
+
+.span_two{
+    grid-column: span 2;
+}
+
+
